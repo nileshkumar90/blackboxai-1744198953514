@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropbox Replica</title>
+    <!-- Replace CDN with production-ready Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Added favicon link to prevent 404 -->
+    <link rel="icon" href="data:,">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between px-6 py-4 border-b">
+        <div class="flex items-center space-x-8">
+            <div class="text-blue-600 font-bold text-2xl">Dropbox</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-700 hover:text-blue-600">For individuals</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">For teams</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">Features</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">Pricing</a>
+            </div>
+        </div>
+        <div class="flex items-center space-x-4">
+            <a href="#" class="text-gray-700 hover:text-blue-600">Sign in</a>
+            <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Download</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Keep life organized and work moving—all in one place</h1>
+                <p class="text-lg text-gray-600 mb-8">Dropbox helps you simplify your workflow. So you can spend more time in your flow.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded text-center hover:bg-blue-700">Find your plan</a>
+                    <a href="#" class="border border-gray-300 text-gray-700 px-6 py-3 rounded text-center hover:bg-gray-50">Learn more</a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://aem.dropbox.com/cms/content/dam/dropbox/warp/en-us/overview/lp-header-graphite200-1920x1080.jpg" alt="Dropbox Hero Image" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Do more with your files</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Store and share</h3>
+                    <p class="text-gray-600">Keep all your files in one secure place. Share them with anyone, anywhere.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Team collaboration</h3>
+                    <p class="text-gray-600">Work on files together in real time with secure sharing and team folders.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <div class="text-blue-600 text-3xl mb-4">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Stay secure</h3>
+                    <p class="text-gray-600">Protect your files with advanced security features like password protection and remote wipe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-12 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="font-semibold text-gray-800 mb-4">Dropbox</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Desktop app</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Mobile app</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Integrations</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 mb-4">Products</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Plus</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Professional</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Business</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 mb-4">Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Help center</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Contact us</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Privacy & terms</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-800 mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">About us</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Careers</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-blue-600">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 pt-8">
+                <p class="text-gray-500 text-sm">&copy; 2023 Dropbox, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
